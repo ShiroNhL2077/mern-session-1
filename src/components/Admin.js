@@ -43,7 +43,7 @@ export default function Admin() {
 
   const deleteUser = (removeUser) => {
     axios
-      .delete(`http://127.0.0.1:3000/update/${removeUser}`, {
+      .delete(`http://127.0.0.1:3000/delete/${removeUser}`, {
         name: Name,
         lastname: lastName,
         age: Age,
