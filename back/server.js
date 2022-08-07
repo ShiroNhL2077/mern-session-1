@@ -29,6 +29,7 @@ app.post('/add' , async (req,res)=>{
      userModel = new User(data);
      finalUser = await userModel.save();
      res.send(finalUser);
+     console.log(finalUser)
  
     } catch (error) {
      res.send(error)

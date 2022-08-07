@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
       <div className="container-fluid px-5 py-1">
         <Link className="navbar-brand col-md-4" to="/#home">
-          Navbar
+          Team_Mates
         </Link>
         <button
           className="navbar-toggler"
